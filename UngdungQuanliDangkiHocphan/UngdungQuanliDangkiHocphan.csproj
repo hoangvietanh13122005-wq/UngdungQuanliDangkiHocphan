@@ -54,33 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UC_QLGiangVien.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_QLGiangVien.Designer.cs">
-      <DependentUpon>UC_QLGiangVien.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_QLHocPhan.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_QLHocPhan.Designer.cs">
-      <DependentUpon>UC_QLHocPhan.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_QLLopHocPhan.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_QLLopHocPhan.Designer.cs">
-      <DependentUpon>UC_QLLopHocPhan.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UC_QLSinhVien.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UC_QLSinhVien.Designer.cs">
-      <DependentUpon>UC_QLSinhVien.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -90,18 +63,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UC_QLGiangVien.resx">
-      <DependentUpon>UC_QLGiangVien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_QLHocPhan.resx">
-      <DependentUpon>UC_QLHocPhan.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_QLLopHocPhan.resx">
-      <DependentUpon>UC_QLLopHocPhan.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UC_QLSinhVien.resx">
-      <DependentUpon>UC_QLSinhVien.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
