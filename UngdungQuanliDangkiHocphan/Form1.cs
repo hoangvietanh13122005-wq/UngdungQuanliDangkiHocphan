@@ -27,6 +27,9 @@ namespace UngdungQuanliDangkiHocphan
 
         private void FormMainAdmin_Load(object sender, EventArgs e)
         {
+            // Đặt form ở trạng thái toàn màn hình
+            this.WindowState = FormWindowState.Maximized;
+
             // Khi mở form, hiển thị mặc định UserControl đầu tiên (nếu muốn)
             LoadUserControl(new UC_QLHocPhan());
         }
