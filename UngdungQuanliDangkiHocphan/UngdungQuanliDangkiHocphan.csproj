@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -54,6 +60,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucDangKyTinChi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDangKyTinChi.Designer.cs">
+      <DependentUpon>ucDangKyTinChi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucLichSuDangKy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucLichSuDangKy.Designer.cs">
+      <DependentUpon>ucLichSuDangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucTraCuuHocPhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucTraCuuHocPhan.Designer.cs">
+      <DependentUpon>ucTraCuuHocPhan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,7 +89,18 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ucDangKyTinChi.resx">
+      <DependentUpon>ucDangKyTinChi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucLichSuDangKy.resx">
+      <DependentUpon>ucLichSuDangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTraCuuHocPhan.resx">
+      <DependentUpon>ucTraCuuHocPhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -75,6 +113,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4212acdbd78c4311579679d81e64ef4b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo-NEU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\475501e12f736ade4f9b9c4e8631c03a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4212acdbd78c4311579679d81e64ef4b1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-computer-icons-search-icon-zooming-user-interface-computer-icons-thumbnail.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
