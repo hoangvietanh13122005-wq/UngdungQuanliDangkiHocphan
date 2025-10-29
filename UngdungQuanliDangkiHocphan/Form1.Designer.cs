@@ -83,13 +83,13 @@
             this.lblTenDaihoc.AutoSize = false;
             this.lblTenDaihoc.AutoSizeHeightOnly = true;
             this.lblTenDaihoc.BackColor = System.Drawing.Color.Transparent;
-            this.lblTenDaihoc.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenDaihoc.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTenDaihoc.ForeColor = System.Drawing.Color.Transparent;
             this.lblTenDaihoc.Location = new System.Drawing.Point(383, 42);
             this.lblTenDaihoc.Name = "lblTenDaihoc";
-            this.lblTenDaihoc.Size = new System.Drawing.Size(1203, 38);
+            this.lblTenDaihoc.Size = new System.Drawing.Size(1203, 42);
             this.lblTenDaihoc.TabIndex = 0;
-            this.lblTenDaihoc.Text = "PAC UNIVERSITY";
+            this.lblTenDaihoc.Text = "CPA UNIVERSITY";
             // 
             // pnlSidebar
             // 

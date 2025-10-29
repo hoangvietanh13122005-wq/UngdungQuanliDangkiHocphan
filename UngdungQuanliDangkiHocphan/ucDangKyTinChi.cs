@@ -16,5 +16,10 @@ namespace UngdungQuanliDangkiHocphan
         {
             InitializeComponent();
         }
+
+        private void dgvDaDangKy_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
