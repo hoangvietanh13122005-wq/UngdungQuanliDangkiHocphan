@@ -24,12 +24,20 @@ namespace UngdungQuanliDangkiHocphan
         }
         private void FormMainAdmin_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Minimized;
             LoadUserControl(new UC_QLHocPhan());
         }
         private void btnlophocphan_Click(object sender, EventArgs e)
         {
-            LoadUserControl(new UC_QLLopHocPhan());
+            var ucLopHocPhan = new UC_QLLopHocPhan();
+            // Gắn event mở UC_XepLopHocPhan
+            ucLopHocPhan.MoUCXepLopHocPhan += () =>
+            {
+                LoadUserControl(new UC_XepLopHocPhan());
+            };
+            LoadUserControl(ucLopHocPhan);
         }
+
 
         private void lblma_Click(object sender, EventArgs e)
         {
@@ -67,6 +75,11 @@ namespace UngdungQuanliDangkiHocphan
         }
 
         private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelmain_Paint(object sender, PaintEventArgs e)
         {
 
         }
